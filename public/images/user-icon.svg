@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_49725" data-name="Rectangle 49725" width="20" height="20" fill="#00193c" stroke="#00193c" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_904" data-name="Mask Group 904" clip-path="url(#clip-path)">
+    <g id="svgexport-6_-_2022-11-02T110037.234" data-name="svgexport-6 - 2022-11-02T110037.234" transform="translate(0 0)">
+      <g id="Group_16143" data-name="Group 16143">
+        <g id="Group_16142" data-name="Group 16142">
+          <path id="Path_67291" data-name="Path 67291" d="M17.071,13.575a9.906,9.906,0,0,0-3.8-2.5,6.158,6.158,0,0,0,2.51-5A5.938,5.938,0,0,0,10,0,5.938,5.938,0,0,0,4.219,6.07a6.158,6.158,0,0,0,2.51,5,9.906,9.906,0,0,0-3.8,2.5A10.7,10.7,0,0,0,0,21H1.563A8.666,8.666,0,0,1,10,12.141,8.666,8.666,0,0,1,18.438,21H20A10.7,10.7,0,0,0,17.071,13.575ZM10,10.5A4.333,4.333,0,0,1,5.781,6.07,4.333,4.333,0,0,1,10,1.641a4.333,4.333,0,0,1,4.219,4.43A4.333,4.333,0,0,1,10,10.5Z" fill="#00193c"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,162 @@
+.contact {
+  padding-top: 50px;
+}
+
+/* HEADING */
+.contact .heading {
+  margin-bottom: 70px;
+}
+
+.contact .heading h3 {
+  font-size: 42px;
+  font-family: "roberto", sans-serif;
+  letter-spacing: 0px;
+  color: #00193c;
+  opacity: 1;
+  text-align: center;
+  max-width: 100%;
+}
+
+.contact .contact-box .info,
+.contact .contact-box .message {
+  flex: 1;
+}
+
+/* CONTACT BOX */
+
+.contact .contact-box {
+  display: flex;
+  text-align: center;
+}
+
+.contact-box .info {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.contact-box .info h4 {
+  font-size: 32px;
+}
+
+.contact-box .info p {
+  opacity: 75%;
+  color: #00193c;
+  font-size: 20px;
+}
+
+/* FORM */
+
+.contact .message {
+  position: relative;
+}
+
+.contact .message form {
+  background-color: #f6e8f3;
+  padding: 25px;
+  max-width: 100%;
+}
+
+.contact .message .form-heading {
+  text-align: center;
+  font-size: 36px;
+  color: #00193c;
+  margin-bottom: 20px;
+}
+
+.contact .message input {
+  width: 300px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background-color: #f6e8f3;
+  border-bottom: 2px solid #00193c;
+}
+
+.contact .message input::placeholder {
+  color: #00193c;
+}
+
+.contact .message textarea {
+  background-color: #f6e8f3;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid #00193c;
+  margin-left: 32px;
+  height: 200px;
+}
+
+.contact .message textarea::placeholder {
+  color: #00193c;
+}
+
+.contact .first-lastname {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contact .email-phone {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contact .message button {
+  position: absolute;
+  right: 35%;
+  transform: translateX(-35%);
+  background-color: #c436a4;
+  color: white;
+  width: 40%;
+  transform: translateX(-50%);
+}
+
+@media (max-width: 990px) {
+  .contact .contact-box {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+
+@media (max-width: 700px) {
+  .contact .heading {
+    margin-bottom: 20px;
+  }
+
+  .contact .message .form-heading {
+    font-size: 30px;
+  }
+
+  .contact-box .info h4 {
+    font-size: 25px;
+  }
+
+  .contact-box .info p {
+    font-size: 15px;
+  }
+
+  .contact .first-lastname {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact .email-phone {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact .heading h3 {
+    font-size: 30px;
+  }
+
+  .contact .message input {
+    width: 300px;
+  }
+
+  .contact .message textarea {
+    margin-left: 60px;
+  }
+}
